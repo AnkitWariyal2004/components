@@ -1,13 +1,20 @@
 import Image from "next/image";
 
-const templates = [
-  { id: 1, img: "/images/sample.webp" },
-  { id: 2, img: "/images/templates/t2.webp" },
-  { id: 3, img: "/images/templates/t3.webp" },
-  { id: 4, img: "/images/templates/t4.webp" },
-  { id: 5, img: "/images/templates/t5.webp" },
-  { id: 6, img: "/images/templates/t6.webp" },
+const templates1 = [
+  { id: 1, img: "/images/7.png" },
+  { id: 2, img: "/images/8.png" },
+  { id: 3, img: "/images/9.png" },
+  { id: 4, img: "/images/10.png" },
+  { id: 5, img: "/images/11.png" },
 ];
+
+const templates2 = [
+    { id: 6, img: "/images/12.png" },
+  { id: 7, img: "/images/13.png" },
+  { id: 8, img: "/images/14.png" },
+  { id: 9, img: "/images/15.png" },
+  { id: 10, img: "/images/16.png" },
+]
 
 export default function TemplatesSlider() {
   return (
@@ -29,7 +36,7 @@ export default function TemplatesSlider() {
               backdrop-filter: blur(10px);
             "
           >
-            {templates.map((item) => (
+            {templates1.map((item) => (
               <div
                 key={item.id}
                 className="
@@ -44,7 +51,7 @@ export default function TemplatesSlider() {
               >
                 <div className="overflow-hidden rounded-xl bg-back">
                   <Image
-                    src={"/images/sample.webp"}
+                    src={item.img}
                     alt="Template preview"
                     width={800}
                     height={600}
@@ -60,14 +67,14 @@ export default function TemplatesSlider() {
             className="
               flex gap-4 overflow-x-auto pb-2
               scroll-smooth
-              snap-x snap-mandatory
+              snap-y
               [-ms-overflow-style:none]
               [scrollbar-width:none]
               [&::-webkit-scrollbar]:hidden
               backdrop-filter: blur(10px);
             "
           >
-            {templates.map((item) => (
+            {templates2.map((item) => (
               <div
                 key={item.id}
                 className="
@@ -82,7 +89,7 @@ export default function TemplatesSlider() {
               >
                 <div className="overflow-hidden rounded-xl bg-back">
                   <Image
-                    src={"/images/sample.webp"}
+                    src={item.img}
                     alt="Template preview"
                     width={800}
                     height={600}

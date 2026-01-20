@@ -1,15 +1,15 @@
 import Link from "next/link";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Templates from "../components/Templates";
-import TemplatesSlider from "../components/TemplatesSlider";
-import FeaturesSection from "../components/FeaturesSection";
-import TestimonialsSection from "../components/TestimonialsSection";
-import PricingSection from "../components/PricingSection";
-import FaqSection from "../components/FaqSection";
+import Header from "../../components/Header";
+import Hero from "../../components/Hero";
+import Templates from "../../components/Templates";
+import TemplatesSlider from "../../components/TemplatesSlider";
+import FeaturesSection from "../../components/FeaturesSection";
+import TestimonialsSection from "../../components/TestimonialsSection";
+import PricingSection from "../../components/PricingSection";
+import FaqSection from "../../components/FaqSection";
 import { faqs } from "../data/faqs";
-import LatestBlogs from "../components/LatestBlogs";
-import Footer from "../components/Footer";
+import LatestBlogs from "../../components/LatestBlogs";
+import Footer from "../../components/Footer";
 
 
 export default function Home() {
