@@ -127,31 +127,31 @@ export default function FeaturesSection() {
                 </p>
 
                 {/* TRIANGLE */}
-                <div className="relative mt-8 flex justify-between w-full px-8">
+                <div className="relative mt-8 flex justify-between w-full p-1 md:px-10">
 
-                  <div className="relative top-3 text-center">
-                    <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border-[3px] border-brand text-xs font-semibold">
+                  <div className="relative top-7 md:top-10 text-center">
+                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-brand text-md font-bold">
                       99%
                     </div>
-                    <p className="mt-1 text-[10px] text-gray-500">
+                    <p className="mt-1 text-[10px] text-gray-500 font-semibold">
                       PERFORMANCE
                     </p>
                   </div>
 
-                  <div className="relative -top-2 text-center">
-                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-brand text-xs font-bold">
+                  <div className="relative -top-5 -md:top-3 text-center">
+                    <div className="mx-auto flex h-18 w-18 items-center justify-center rounded-full border-[5px] border-brand text-md font-bold">
                       100%
                     </div>
-                    <p className="mt-1 text-[10px] text-gray-500">
+                    <p className="mt-1 text-[10px] text-gray-500 font-semibold">
                       SEO
                     </p>
                   </div>
 
-                  <div className="relative top-3 text-center">
-                    <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border-[3px] border-brand text-xs font-semibold">
+                  <div className="relative top-7 md:top-10 text-center">
+                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-brand text-md font-bold">
                       99%
                     </div>
-                    <p className="mt-1 text-[10px] text-gray-500">
+                    <p className="mt-1 text-[10px] text-gray-500 font-semibold">
                       ACCESSIBILITY
                     </p>
                   </div>
