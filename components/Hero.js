@@ -7,7 +7,7 @@ export default function Hero() {
         <section className="relative overflow-hidden bg-[#f7f6f3] border-b border-gray-200">
 
             {/* BACKGROUND CURVES */}
-            <div className="pointer-events-none absolute inset-0 hidden lg:block">
+            {/* <div className="pointer-events-none absolute inset-0 hidden lg:block">
                 <Image
                     src="/images/hero-curves.svg"
                     alt=""
@@ -16,7 +16,7 @@ export default function Hero() {
                     // priority
                     loading="lazy"
                 />
-            </div>
+            </div> */}
 
 
 
@@ -82,53 +82,25 @@ export default function Hero() {
 
                     {/* LINE + TEXT */}
                     <div className="flex items-center justify-center gap-6">
-                        <span className="h-px w-20 bg-gray-300"></span>
+                        <span className="h-px w-40 bg-gray-300"></span>
 
                         <p className="text-xs font-semibold tracking-widest text-gray-500">
                             TRUSTED BY 50+ GROWING COMPANIES
                         </p>
 
-                        <span className="h-px w-20 bg-gray-300"></span>
+                        <span className="h-px w-40 bg-gray-300"></span>
                     </div>
 
                     {/* LOGOS */}
-                    <div className="mt-6 flex flex-wrap items-center justify-center gap-5">
-                        <Image
-                            src="/images/logos/acme.webp"
-                            alt="ACME Corp"
-                            width={110}
-                            height={40}
-                            className="opacity-70"
-                            loading="lazy"
-                        />
-
-                        <Image
-                            src="/images/logos/globalnews.webp"
-                            alt="GlobalNews"
-                            width={130}
-                            height={40}
-                            className="opacity-70"
-                            loading="lazy"
-                        />
-
-                        <Image
-                            src="/images/logos/starkind.webp"
-                            alt="StarkInd"
-                            width={120}
-                            height={40}
-                            loading="lazy"
-                            className="opacity-70"
-                        />
-
-                        <Image
-                            src="/images/logos/veritas.webp"
-                            alt="Veritas"
-                            width={110}
-                            height={40}
-                            className="opacity-70"
-                            loading="lazy"
-                        />
+                    <div className="flex flex-row items-center justify-center md:gap-10 gap-8 md:text-lg text-sm font-bold mt-5  text-gray-700 ">
+                        <span>ACME Corp</span>
+                        <span>GlobalNews</span>
+                        <span className="text-semibold">StarkInd</span>
+                        <span>Veritas</span>
                     </div>
+
+                    {/* Bottom divider */}
+                    {/* <div className="mx-auto mt-10 h-px w-full max-w-4xl bg-gray-200" /> */}
                 </div>
             </div>
         </section>

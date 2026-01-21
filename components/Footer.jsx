@@ -1,5 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 export default function Footer() {
   return (
@@ -98,21 +102,21 @@ export default function Footer() {
           aria-label="X"
           className="hover:text-black transition"
         >
-          X
+          <FaXTwitter className="font-bold"/>
         </a>
         <a
           href="#"
           aria-label="Facebook"
           className="hover:text-black transition"
         >
-          f
+          <FaFacebookF className="font-bold"/>
         </a>
         <a
           href="#"
           aria-label="LinkedIn"
           className="hover:text-black transition"
         >
-          in
+          <FaLinkedinIn className="font-bold"/>
         </a>
       </div>
 

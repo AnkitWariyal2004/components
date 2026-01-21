@@ -6,25 +6,25 @@ const templates = [
     id: 1,
     title: "SaaS Website Template",
     desc: "Clean, conversion-focused layout designed for startups and product teams.",
-     img: "/sample.webp",
+     img: "/images/7.png",
   },
   {
     id: 2,
     title: "Agency Portfolio Template",
     desc: "A minimal portfolio system built to showcase work and attract clients.",
-      img: "/sample.webp",
+      img: "/images/13.png",
   },
   {
     id: 3,
     title: "Landing Page Template",
     desc: "High-impact landing pages optimized for clarity, speed, and results.",
-      img: "/sample.webp",
+      img: "/images/14.png",
   },
   {
     id: 4,
     title: "UI Kit & Design System",
     desc: "Reusable components and styles for scalable product design.",
-     img: "/sample.webp",
+     img: "/images/15.png",
   },
 ];
 

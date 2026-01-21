@@ -16,24 +16,24 @@ export default function PricingSection() {
                 <div className="grid gap-5 lg:grid-cols-3">
                     {/* STARTER */}
                     <div className="rounded-2xl bg-[#efeeeb] p-4 md:p-5 p-3 shadow-sm">
-                        <div className="rounded-2xl bg-white p-8 shadow-sm ">
+                        <div className="rounded-2xl bg-white p-8 shadow-sm h-full ">
                             <p className="mb-3 text-xs font-semibold tracking-widest text-gray-400">
                                 STARTER
                             </p>
 
-                            <div className="mb-6 flex items-end gap-2">
+                            <div className="mb-6 flex items-end gap-2 ">
                                 <span className="text-4xl font-bold">₹9,999</span>
                                 <span className="text-xs text-gray-500">/ PROJECT</span>
                             </div>
 
                             <hr className="mb-2 text-gray-300"/>
 
-                            <ul className="space-y-3 text-sm text-gray-700">
-                                <li>✔ 1 Landing Page Or Screen Set</li>
-                                <li>✔ Clean, Modern UI Design</li>
-                                <li>✔ Basic UX Structure</li>
-                                <li>✔ Mobile-Responsive Layout</li>
-                                <li>✔ 1 Round Of Revisions</li>
+                            <ul className="space-y-3 text-sm text-gray-700 ">
+                                <li> <span className="text-brand font-bold text-2xl">•</span> 1 Landing Page Or Screen Set</li>
+                                <li><span className="text-brand font-bold text-2xl">•</span> Clean, Modern UI Design</li>
+                                <li><span className="text-brand font-bold text-2xl">•</span> Basic UX Structure</li>
+                                <li><span className="text-brand font-bold text-2xl">•</span> Mobile-Responsive Layout</li>
+                                <li><span className="text-brand font-bold text-2xl">•</span> 1 Round Of Revisions</li>
                             </ul>
 
                             <button className="mt-8 rounded-md bg-brand px-5 py-2 text-sm font-medium text-white shadow-sm">
@@ -58,11 +58,11 @@ export default function PricingSection() {
                             <hr className="mb-2 text-gray-300"/>
 
                             <ul className="space-y-3 text-sm">
-                                <li>✔ Multi-Page Website Or App Screens</li>
-                                <li>✔ UX Strategy & User Flow</li>
-                                <li>✔ Custom Components & Layouts</li>
-                                <li>✔ Responsive Across Devices</li>
-                                <li>✔ Up To 3 Revision Rounds</li>
+                                <li> <span className="text-gray font-bold text-2xl">•</span>  Multi-Page Website Or App Screens</li>
+                                <li> <span className="text-gray font-bold text-2xl">•</span>  UX Strategy & User Flow</li>
+                                <li> <span className="text-gray font-bold text-2xl">•</span>  Custom Components & Layouts</li>
+                                <li> <span className="text-gray font-bold text-2xl">•</span>  Responsive Across Devices</li>
+                                <li> <span className="text-gray font-bold text-2xl">•</span>  Up To 3 Revision Rounds</li>
                             </ul>
 
                             <button className="mt-8 rounded-md bg-black px-5 py-2 text-sm font-medium text-white shadow-sm">
@@ -86,11 +86,11 @@ export default function PricingSection() {
                         <hr className="mb-2 text-gray-300"/>
 
                         <ul className="space-y-3 text-sm text-gray-700">
-                            <li>✔ Full Product Or Website Design</li>
-                            <li>✔ UX Research & Structure</li>
-                            <li>✔ Scalable Design System</li>
-                            <li>✔ Advanced Interactions Guidance</li>
-                            <li>✔ Unlimited Revisions (Within Scope)</li>
+                            <li><span className="text-brand font-bold text-2xl">•</span> Full Product Or Website Design</li>
+                            <li><span className="text-brand font-bold text-2xl">•</span> UX Research & Structure</li>
+                            <li><span className="text-brand font-bold text-2xl">•</span> Scalable Design System</li>
+                            <li><span className="text-brand font-bold text-2xl">•</span> Advanced Interactions Guidance</li>
+                            <li><span className="text-brand font-bold text-2xl">•</span> Unlimited Revisions (Within Scope)</li>
                         </ul>
 
                         <button className="mt-8 rounded-md bg-brand px-5 py-2 text-sm font-medium text-white    shadow-sm">

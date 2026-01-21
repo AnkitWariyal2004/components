@@ -6,19 +6,19 @@ const blogs = [
     id: 1,
     title: "Design That Actually Works",
     desc: "Why clarity, usability, and structure matter more than trends in modern design",
-    image: "/images/blog-1.webp",
+    image: "/images/17.png",
   },
   {
     id: 2,
     title: "From Strategy to Interface",
     desc: "How a strong design process leads to better products and fewer revisions",
-    image: "/images/blog-2.webp",
+    image: "/images/18.png",
   },
   {
     id: 3,
     title: "Minimal Design, Real Impact",
     desc: "How simplicity helps users focus, engage, and convert more effectively",
-    image: "/images/blog-3.webp",
+    image: "/images/19.png",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function LatestBlogs() {
         </div>
 
         {/* Blog Grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-[#efeeeb] p-4 md:p-5 p-3 shadow-sm">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-[#efeeeb] p-4 md:p-5 p-3 ">
           {blogs.map((blog, index) => (
             <article
               key={blog.id}

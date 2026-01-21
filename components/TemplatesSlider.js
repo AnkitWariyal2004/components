@@ -9,7 +9,7 @@ const templates1 = [
 ];
 
 const templates2 = [
-    { id: 6, img: "/images/12.png" },
+  { id: 6, img: "/images/12.png" },
   { id: 7, img: "/images/13.png" },
   { id: 8, img: "/images/14.png" },
   { id: 9, img: "/images/15.png" },
