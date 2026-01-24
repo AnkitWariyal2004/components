@@ -25,13 +25,13 @@ const blogs = [
 export default function LatestBlogs() {
   return (
     <section className="">
-      <div className="mx-auto max-w-7xl px-4 ">
+      <div className="mx-auto max-w-7xl px-4">
         {/* Heading */}
         <div className="mb-12 text-center">
-          <h2 className="text-2xl font-semibold">
+          <h2 className="md:text-2xl font-bold text-lg">
             Latest <span className="text-brand">Blogs</span>
           </h2>
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-md text-gray-500">
             Thoughts on design, usability, and building better digital products
           </p>
         </div>
@@ -56,12 +56,12 @@ export default function LatestBlogs() {
               </div>
 
               {/* Content */}
-              <h3 className="text-base font-semibold">{blog.title}</h3>
-              <p className="mt-2 text-sm text-gray-600">{blog.desc}</p>
+              <h3 className="text-xl  font-bold">{blog.title}</h3>
+              <p className="mt-2 text-md text-gray-600">{blog.desc}</p>
 
               <Link
                 href="/blogs"
-                className="mt-4 inline-block rounded-md bg-black px-4 py-2 text-xs font-medium text-white hover:bg-brand"
+                className="mt-4 inline-block rounded-md bg-black px-4 py-2 text-md font-medium text-white hover:bg-brand"
               >
                 Know More
               </Link>

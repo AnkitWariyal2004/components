@@ -37,13 +37,13 @@ export default function Hero() {
                 </h1>
 
                 {/* TEXT */}
-                <p className="mx-auto mt-6 max-w-2xl text-gray-600">
+                <p className="mx-auto mt-6 max-w-2xl text-gray-600 text-lg">
                     Whether you need a custom website or ready-made templates,
                     we design experiences that look good and work even better
                 </p>
 
                 {/* BUTTONS */}
-                <div className="mt-10 flex flex-row gap-4  justify-center">
+                <div className="mt-10 flex flex-row gap-4 justify-center ">
                     <Link className="rounded-md bg-orange-500 px-6 py-3 text-white shadow-md" href="#">
                         Let’s Build Something
                     </Link>

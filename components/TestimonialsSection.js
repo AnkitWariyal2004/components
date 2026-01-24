@@ -20,19 +20,7 @@ const testimonials = [
       "Fast, reliable, and detail-oriented. The final output looked polished and professional across all devices.",
     author: "Founder",
     company: "SaaS Startup",
-  },
-  {
-    text:
-      "Their UX thinking really helped us increase conversions.",
-    author: "Founder",
-    company: "Tech Company",
-  },
-  {
-    text:
-      "Amazing communication and execution.",
-    author: "Founder",
-    company: "Startup",
-  },
+  }
 ];
 
 export default function TestimonialsSection() {
@@ -56,10 +44,10 @@ export default function TestimonialsSection() {
 
         {/* HEADER */}
         <div className="mb-12 text-center">
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl font-bold">
             What Our <span className="text-brand">Clients Say</span>
           </h2>
-          <p className="mt-2 text-sm text-gray-600">
+          <p className="mt-2 text-md text-gray-600 leading-tight">
             Honest feedback from teams we’ve partnered with
           </p>
         </div>
@@ -86,12 +74,12 @@ export default function TestimonialsSection() {
                 p-6
               "
             >
-              <p className="text-sm font-medium">{t.text}</p>
+              <p className="text-md font-bold ">{t.text}</p>
 
-              <div className="mt-6 flex items-center justify-between">
-                <p className="text-sm text-gray-600">
+              <div className="mt-20 flex items-center justify-between">
+                <p className="text-md text-gray-600 leading-tight">
                   — {t.author},{" "}
-                  <span className="text-brand">{t.company}</span>
+                  <span className="text-brand leading-tight">{t.company}</span>
                 </p>
 
                 <div className="flex gap-1 text-brand">★★★★★</div>

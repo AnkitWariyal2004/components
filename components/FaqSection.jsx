@@ -33,10 +33,10 @@ export default function FaqSection() {
             <div className="mx-auto max-w-5xl px-4">
                 
                 <div className="text-center mb-12">
-                    <h2 className="text-2xl sm:text-3xl font-semibold">
+                    <h2 className="md:text-2xl text-lg font-bold">
                         Frequently <span className="text-brand">Asked Questions</span>
                     </h2>
-                    <p className="mt-2 text-gray-500">
+                    <p className="mt-1 font-md text-gray-500">
                         Everything you need to know before getting started
                     </p>
                 </div>
@@ -57,7 +57,7 @@ export default function FaqSection() {
                                         className="flex w-full items-center justify-between text-left"
                                         aria-expanded={isOpen}
                                     >
-                                        <span className="text-base sm:text-lg font-semibold m-r-4 flex-1">
+                                        <span className="md:text-xl sm:text-xl font-bold mr-4 flex-1">
                                             {i + 1}. {item.q}
                                         </span>
 
@@ -71,7 +71,7 @@ export default function FaqSection() {
                                         className={`grid transition-all duration-300 ease-in-out ${isOpen ? "grid-rows-[1fr] mt-4" : "grid-rows-[0fr]"
                                             }`}
                                     >
-                                        <div className="overflow-hidden text-gray-600 text-sm sm:text-base leading-relaxed">
+                                        <div className="overflow-hidden text-gray-600 text-base leading-none font-semibold">
                                             {item.a}
                                         </div>
                                     </div>

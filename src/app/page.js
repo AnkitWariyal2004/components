@@ -133,19 +133,19 @@ export default function Home() {
             <div className="rounded-xl bg-white px-6 py-12 text-center md:px-12">
               <h2
                 id="final-cta-heading"
-                className="text-2xl font-semibold text-black md:text-3xl"
+                className="text-2xl font-bold text-black md:text-3xl"
               >
                 Let’s Build Something{" "}
                 <span className="text-brand">Meaningful</span>
               </h2>
 
-              <p className="mx-auto mt-4 max-w-2xl text-sm text-gray-600 md:text-base">
+              <p className="mx-auto mt-2 max-w-2xl text-md text-gray-600">
                 Have an idea or a project in mind? Let’s turn it into a clear,
                 well-designed digital experience.
               </p>
 
               {/* Buttons */}
-              <div className="mt-8 flex  items-center justify-center gap-4 flex-row">
+              <div className="mt-10 flex  items-center justify-center gap-4 md:flex-row flex-col">
                 <Link
                   href="/start-project"
                   className="rounded-md bg-brand px-6 py-3 text-sm font-medium text-white shadow-sm transition hover:opacity-90"

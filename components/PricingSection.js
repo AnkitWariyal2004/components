@@ -4,10 +4,10 @@ export default function PricingSection() {
             <div className="mx-auto max-w-7xl px-4">
                 {/* Heading */}
                 <div className="mb-14 text-center">
-                    <h2 className="text-3xl font-semibold">
+                    <h2 className="text-2xl font-bold">
                         Simple, <span className="text-brand">Transparent Pricing</span>
                     </h2>
-                    <p className="mt-3 text-sm text-gray-500">
+                    <p className="mt-1 text-md text-gray-500">
                         Choose a plan that fits your needs, no hidden costs, no surprises
                     </p>
                 </div>
@@ -28,7 +28,7 @@ export default function PricingSection() {
 
                             <hr className="mb-2 text-gray-300"/>
 
-                            <ul className="space-y-3 text-sm text-gray-700 ">
+                            <ul className=" text-md leading-tight">
                                 <li> <span className="text-brand font-bold text-2xl">•</span> 1 Landing Page Or Screen Set</li>
                                 <li><span className="text-brand font-bold text-2xl">•</span> Clean, Modern UI Design</li>
                                 <li><span className="text-brand font-bold text-2xl">•</span> Basic UX Structure</li>
@@ -36,7 +36,7 @@ export default function PricingSection() {
                                 <li><span className="text-brand font-bold text-2xl">•</span> 1 Round Of Revisions</li>
                             </ul>
 
-                            <button className="mt-8 rounded-md bg-brand px-5 py-2 text-sm font-medium text-white shadow-sm">
+                            <button className="mt-8 rounded-md bg-brand px-5 py-2 text-md font-medium text-white shadow-sm">
                                 Get Started now
                             </button>
                         </div>
@@ -45,7 +45,7 @@ export default function PricingSection() {
 
                     {/* GROWTH (HIGHLIGHTED) */}
                     < div className="rounded-2xl bg-[#efeeeb] p-4 md:p-5 p-3 shadow-sm">
-                        <div className="rounded-2xl bg-brand p-8 text-white shadow-md">
+                        <div className="rounded-2xl bg-brand p-8 text-white shadow-md h-full ">
                             <p className="mb-3 text-xs font-semibold tracking-widest opacity-80">
                                 GROWTH
                             </p>
@@ -57,7 +57,7 @@ export default function PricingSection() {
 
                             <hr className="mb-2 text-gray-300"/>
 
-                            <ul className="space-y-3 text-sm">
+                            <ul className="text-md leading-tight">
                                 <li> <span className="text-gray font-bold text-2xl">•</span>  Multi-Page Website Or App Screens</li>
                                 <li> <span className="text-gray font-bold text-2xl">•</span>  UX Strategy & User Flow</li>
                                 <li> <span className="text-gray font-bold text-2xl">•</span>  Custom Components & Layouts</li>
@@ -65,7 +65,7 @@ export default function PricingSection() {
                                 <li> <span className="text-gray font-bold text-2xl">•</span>  Up To 3 Revision Rounds</li>
                             </ul>
 
-                            <button className="mt-8 rounded-md bg-black px-5 py-2 text-sm font-medium text-white shadow-sm">
+                            <button className="mt-8 rounded-md bg-black px-5 py-2 text-md font-medium text-white shadow-sm">
                                 Choose Growth
                             </button>
                         </div>
@@ -85,7 +85,7 @@ export default function PricingSection() {
 
                         <hr className="mb-2 text-gray-300"/>
 
-                        <ul className="space-y-3 text-sm text-gray-700">
+                        <ul className="text-md leading-tight">
                             <li><span className="text-brand font-bold text-2xl">•</span> Full Product Or Website Design</li>
                             <li><span className="text-brand font-bold text-2xl">•</span> UX Research & Structure</li>
                             <li><span className="text-brand font-bold text-2xl">•</span> Scalable Design System</li>
@@ -93,7 +93,7 @@ export default function PricingSection() {
                             <li><span className="text-brand font-bold text-2xl">•</span> Unlimited Revisions (Within Scope)</li>
                         </ul>
 
-                        <button className="mt-8 rounded-md bg-brand px-5 py-2 text-sm font-medium text-white    shadow-sm">
+                        <button className="mt-8 rounded-md bg-brand px-5 py-2 text-md font-medium text-white    shadow-sm">
                             Contact Us
                         </button>
                     </div>

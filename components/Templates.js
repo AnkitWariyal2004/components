@@ -42,19 +42,19 @@ export default function TemplatesSection() {
 
           <Link
             href="/templates"
-            className="hidden sm:inline-flex items-center gap-2 rounded-md bg-black px-5 py-2 text-sm text-white"
+            className="hidden sm:inline-flex items-center gap-2 rounded-md bg-black px-5 py-2 text-md text-white"
           >
             Browse all template →
           </Link>
         </div>
 
         {/* GRID */}
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 p-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {templates.map((item) => (
             <article key={item.id} className="group">
 
               {/* IMAGE CARD */}
-              <div className="overflow-hidden rounded-md shadow-md p-3">
+              <div className="overflow-hidden rounded-md ">
                 <Image
                   src={item.img}
                   alt={item.title}
@@ -66,11 +66,11 @@ export default function TemplatesSection() {
               </div>
 
               {/* TEXT */}
-              <h3 className="mt-4 text-base font-semibold text-black">
+              <h3 className="mt-4 text-base font-semibold text-black text-lg  cursor-pointer">
                 {item.title}
               </h3>
 
-              <p className="mt-1 text-sm text-gray-600">
+              <p className="mt-1 text-gray-600 text-md ">
                 {item.desc}
               </p>
 

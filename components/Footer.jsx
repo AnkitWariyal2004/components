@@ -22,12 +22,12 @@ export default function Footer() {
               className="mb-4"
               priority={false}
             />
-            <p className="text-sm text-gray-600 leading-relaxed">
+            <p className="text-md text-gray-600 leading-tight">
               Designing modern digital experiences for brands,
               startups, and product teams
             </p>
 
-            <p className="mt-6 text-sm font-semibold">
+            <p className="mt-6 text-md font-bold">
               Let’s discuss about your project.
             </p>
 
@@ -36,7 +36,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full rounded-l-md border border-gray-300 px-4 py-2 text-sm focus:outline-none"
+                className="w-full rounded-l-md border border-gray-300 px-4 py-2 text-md focus:outline-none"
               />
               <button
                 aria-label="Submit Email"
@@ -49,36 +49,36 @@ export default function Footer() {
 
           {/* QUICK LINKS */}
           <div>
-            <h4 className="mb-4 font-semibold">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-gray-600">
+            <h4 className="mb-4 font-bold text-xl">Quick Links</h4>
+            <ul className="space-y-2 text-md text-gray-600">
               <li><Link href="/" className="text-orange-500">Home</Link></li>
-              <li><Link href="/our-work">Our work</Link></li>
-              <li><Link href="/template">Template</Link></li>
-              <li><Link href="/features">Features</Link></li>
-              <li><Link href="/pricing">Pricing</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/our-work" className="hover:text-brand">Our work</Link></li>
+              <li><Link href="/template" className="hover:text-brand">Template</Link></li>
+              <li><Link href="/features" className="hover:text-brand">Features</Link></li>
+              <li><Link href="/pricing" className="hover:text-brand">Pricing</Link></li>
+              <li><Link href="/contact" className="hover:text-brand">Contact</Link></li>
             </ul>
           </div>
 
           {/* LEGAL */}
           <div>
-            <h4 className="mb-4 font-semibold">Legal Links</h4>
-            <ul className="space-y-2 text-sm text-gray-600">
-              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-              <li><Link href="/refund-policy">Refund Policy</Link></li>
-              <li><Link href="/terms">Terms and condition</Link></li>
-              <li><Link href="/cancellation">Cancellation Policy</Link></li>
+            <h4 className="mb-4 font-bold text-xl">Legal Links</h4>
+            <ul className="space-y-2 text-md text-gray-600">
+              <li><Link href="/privacy-policy" className="hover:text-brand">Privacy Policy</Link></li>
+              <li><Link href="/refund-policy" className="hover:text-brand">Refund Policy</Link></li>
+              <li><Link href="/terms" className="hover:text-brand">Terms and condition</Link></li>
+              <li><Link href="/cancellation" className="hover:text-brand">Cancellation Policy</Link></li>
             </ul>
           </div>
 
           {/* OTHER */}
           <div>
-            <h4 className="mb-4 font-semibold">Other Links</h4>
-            <ul className="space-y-2 text-sm text-gray-600">
-              <li><a href="https://dev.to" target="_blank">dev.to</a></li>
-              <li><a href="https://pinterest.com" target="_blank">Pinterest</a></li>
-              <li><a href="https://quora.com" target="_blank">Quora</a></li>
-              <li><a href="https://stackoverflow.com" target="_blank">Stackoverflow</a></li>
+            <h4 className="mb-4 font-bold text-xl">Other Links</h4>
+            <ul className="space-y-2 text-md text-gray-600">
+              <li><a href="https://dev.to" target="_blank" className="hover:text-brand">dev.to</a></li>
+              <li><a href="https://pinterest.com" target="_blank" className="hover:text-brand">Pinterest</a></li>
+              <li><a href="https://quora.com" target="_blank" className="hover:text-brand">Quora</a></li>
+              <li><a href="https://stackoverflow.com" target="_blank" className="hover:text-brand">Stackoverflow</a></li>
             </ul>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Footer() {
     <div className="flex flex-col items-center justify-between gap-4 rounded-xl bg-[#EFEDEA] px-6 py-4 md:flex-row">
       
       {/* LEFT */}
-      <p className="text-sm text-gray-600">
+      <p className="text-md text-gray-600">
         Copyright ©2026 Parvati and sons
       </p>
 

@@ -8,11 +8,11 @@ export default function FeaturesSection() {
 
         {/* HEADER */}
         <div className="mb-10 text-center">
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl font-bold">
             Features That Make the{" "}
             <span className="text-brand">Difference</span>
           </h2>
-          <p className="mt-1 text-sm text-gray-600">
+          <p className="mt-1 text-md text-gray-600 leading-tight">
             Everything you need to design, launch, and scale with confidence.
           </p>
         </div>
@@ -23,10 +23,10 @@ export default function FeaturesSection() {
 
             {/* Client Satisfaction */}
             <div className="rounded-xl bg-white p-4 md:p-5 md:col-span-2 flex flex-col items-center h-[300px]">
-              <h3 className="text-md font-bold">
+              <h3 className="md:text-2xl font-bold text-lg">
                 Client Satisfaction Focused
               </h3>
-              <p className="mt-1 text-sm text-gray-600 text-center">
+              <p className="mt-1 text-md text-gray-600 text-center">
                 We continuously improve design quality through feedback,
                 iteration, and real-world testing.
               </p>
@@ -43,8 +43,8 @@ export default function FeaturesSection() {
             </div>
 
             {/* Design That Solves Real Problems */}
-            <div className="md:col-span-3 rounded-xl bg-white p-4 md:p-5 overflow-hidden">
-              <h3 className="text-md font-bold text-center">
+            <div className="md:col-span-3 rounded-xl bg-white p-4 overflow-hidden">
+              <h3 className="md:text-2xl font-bold text-center text-lg">
                 Design That Solves Real Problems
               </h3>
               <p className="mt-1 text-sm text-gray-600 text-center max-w-xl mx-auto">
@@ -100,18 +100,18 @@ export default function FeaturesSection() {
             <div className="md:col-span-5 grid gap-4 md:grid-cols-2">
 
               {/* CTA */}
-              <div className="rounded-xl bg-[#ffb347] p-5 h-[250px] flex flex-col items-center justify-center text-center">
-                <h3 className="text-md font-bold">
+              <div className="rounded-xl bg-[#ffb347] p-5 h-[250px] flex flex-col items-center text-center">
+                <h3 className="md:text-2xl font-bold text-lg">
                   Let’s Build Something Great
                 </h3>
-                <p className="mt-1 text-sm">
+                <p className="mt-1 text-md">
                   Have an idea or need a redesign? Let’s discuss your project
                   and explore the best way forward.
                 </p>
 
                 <Link
                   href="/contact"
-                  className="mt-8 inline-block rounded-md bg-black px-4 py-2 text-xs text-white"
+                  className="mt-8 inline-block rounded-md bg-black px-4 py-2 text-md text-white"
                 >
                   Schedule a Free 20-Min Call
                 </Link>
@@ -119,10 +119,10 @@ export default function FeaturesSection() {
 
               {/* SEO */}
               <div className="rounded-xl bg-white p-4 md:p-5 flex flex-col items-center">
-                <h3 className="text-md font-bold">
+                <h3 className="md:text-2xl font-bold text-lg">
                   SEO Ready & Fast Performance
                 </h3>
-                <p className="mt-1 text-sm text-gray-600 text-center">
+                <p className="mt-1 text-md text-gray-600 text-center">
                   Optimized for search rankings and blazing-fast speed.
                 </p>
 
@@ -130,10 +130,10 @@ export default function FeaturesSection() {
                 <div className="relative mt-8 flex justify-between w-full p-1 md:px-10">
 
                   <div className="relative top-7 md:top-10 text-center">
-                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-brand text-md font-bold">
+                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[5px] border-brand text-md font-bold">
                       99%
                     </div>
-                    <p className="mt-1 text-[10px] text-gray-500 font-semibold">
+                    <p className="mt-1 text-[12px] text-gray-500 font-semibold">
                       PERFORMANCE
                     </p>
                   </div>
@@ -142,16 +142,16 @@ export default function FeaturesSection() {
                     <div className="mx-auto flex h-18 w-18 items-center justify-center rounded-full border-[5px] border-brand text-md font-bold">
                       100%
                     </div>
-                    <p className="mt-1 text-[10px] text-gray-500 font-semibold">
+                    <p className="mt-1 text-[12px] text-gray-500 font-semibold">
                       SEO
                     </p>
                   </div>
 
                   <div className="relative top-7 md:top-10 text-center">
-                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-brand text-md font-bold">
+                    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border-[5px] border-brand text-md font-bold">
                       99%
                     </div>
-                    <p className="mt-1 text-[10px] text-gray-500 font-semibold">
+                    <p className="mt-1 text-[12px] text-gray-500 font-semibold">
                       ACCESSIBILITY
                     </p>
                   </div>
@@ -163,16 +163,16 @@ export default function FeaturesSection() {
             {/* Strategy */}
             <div className="rounded-xl bg-white p-4 md:col-span-3 md:flex gap-6 h-[300px]">
               <div className="md:w-1/2">
-                <h3 className="text-md font-bold">
+                <h3 className="md:text-2xl font-bold text-lg">
                   Strategy Before Screens
                 </h3>
-                <p className="mt-1 text-sm">
+                <p className="mt-1 text-md">
                   Thoughtful design direction backed by research, structure,
                   and long-term vision, not just visuals.
                 </p>
               </div>
 
-              <div className="md:w-1/2 flex justify-center">
+              <div className="md:w-1/2 flex justify-center mt-2">
                 <Image
                   src="/images/18.png"
                   alt="Strategy board"
@@ -186,10 +186,10 @@ export default function FeaturesSection() {
 
             {/* Case Study */}
             <div className="rounded-xl bg-white p-4 md:p-5 md:col-span-2 h-[300px] flex flex-col items-center overflow-hidden">
-              <h3 className="text-md font-bold">
+              <h3 className="md:text-2xl font-bold text-lg">
                 Recent Case Study
               </h3>
-              <p className="mt-1 text-sm text-center text-gray-600">
+              <p className="mt-1 text-md text-center text-gray-600">
                 A real project designed to solve real problems from concept
                 to final interface, built with clarity and purpose.
               </p>
