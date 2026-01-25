@@ -71,7 +71,7 @@ export default function FaqSection() {
                                         className={`grid transition-all duration-300 ease-in-out ${isOpen ? "grid-rows-[1fr] mt-4" : "grid-rows-[0fr]"
                                             }`}
                                     >
-                                        <div className="overflow-hidden text-gray-600 text-base leading-none font-semibold">
+                                        <div className=" ml-4 overflow-hidden text-gray-600 text-md leading-tight font-semibold">
                                             {item.a}
                                         </div>
                                     </div>
