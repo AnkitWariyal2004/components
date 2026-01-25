@@ -10,6 +10,8 @@ import FaqSection from "../../components/FaqSection";
 import { faqs } from "../data/faqs";
 import LatestBlogs from "../../components/LatestBlogs";
 import Footer from "../../components/Footer";
+import OurStory from "@/components/OurStory";
+import MeetTheTeam from "@/components/MeetTheTeam";
 
 
 export default function Home() {
@@ -40,86 +42,10 @@ export default function Home() {
         <Hero />
         <TemplatesSlider />
         <Templates />
-        <section className="bg-[#f7f6f3] ">
-          <div className="mx-auto max-w-7xl px-4">
-
-            {/* DESKTOP LAYOUT */}
-            <div className="hidden md:grid md:grid-cols-2 md:gap-16">
-
-              {/* LEFT */}
-              <div>
-                <p className="text-2xl font-semibold">
-                  Our <span className="text-brand font-bold">Story</span>
-                </p>
-
-                <h2 className="mt-4 text-4xl font-semibold leading-tight text-gray">
-                  We’r providing quality <br />
-                  service since 2018!
-                </h2>
-              </div>
-
-              {/* RIGHT */}
-              <div>
-                <p className="font-semibold leading-tight text-black">
-                  Parvati and Sons, an IT company headquartered in Uttarakhand, was
-                  founded in 2018 with a mission to provide automation solutions for
-                  startups, small businesses, and enterprises.
-                </p>
-
-                <p className="mt-2 font-semibold leading-tight text-brand">
-                  Since then, we have successfully completed numerous projects
-                  across various cities in India, staying true to our vision.
-                </p>
-
-                <div className="mt-10 flex items-center justify-between">
-                  <span className="h-px flex-1 bg-gray-400"></span>
-
-                  <Link
-                    href="/about"
-                    className="ml-6 inline-flex items-center gap-2 rounded-md bg-black px-6 py-3 text-sm text-white"
-                  >
-                    Know more about us →
-                  </Link>
-                </div>
-              </div>
-
-            </div>
-
-            {/* MOBILE CARD */}
-            <div className="md:hidden rounded-2xl bg-white p-6 shadow-sm backdrop-filter: blur(10px);">
-
-              <p className="text-2xl font-semibold">
-                Our <span className="text-brand font-bold">Story</span>
-              </p>
-
-              <h2 className="mt-3 text-2xl font-semibold leading-tight text-gray">
-                We’r providing quality service since 2018!
-              </h2>
-
-              <p className="mt-6 font-semibold leading-tight text-black">
-                Parvati and Sons, an IT company headquartered in Uttarakhand, was
-                founded in 2018 with a mission to provide automation solutions for
-                startups, small businesses, and enterprises.
-              </p>
-
-              <p className="mt-4 font-semibold leading-tight text-black">
-                Since then, we have successfully completed numerous projects across
-                various cities in India, staying true to our vision.
-              </p>
-
-              <Link
-                href="/about"
-                className="mt-8 inline-flex items-center gap-2 rounded-md bg-black px-6 py-3 text-sm text-white"
-              >
-                Know more about us →
-              </Link>
-
-            </div>
-
-          </div>
-        </section>
+       <OurStory/>
         <FeaturesSection />
         <TestimonialsSection />
+        <MeetTheTeam/>
         <PricingSection />
         <FaqSection />
 
@@ -175,3 +101,83 @@ export default function Home() {
 }
 
 
+
+
+//  <section className="bg-[#f7f6f3] ">
+//           <div className="mx-auto max-w-7xl px-4">
+
+//             {/* DESKTOP LAYOUT */}
+//             <div className="hidden md:grid md:grid-cols-2 md:gap-16">
+
+//               {/* LEFT */}
+//               <div>
+//                 <p className="text-2xl font-semibold">
+//                   Our <span className="text-brand font-bold">Story</span>
+//                 </p>
+
+//                 <h2 className="mt-4 text-4xl font-semibold leading-tight text-gray">
+//                   We’r providing quality <br />
+//                   service since 2018!
+//                 </h2>
+//               </div>
+
+//               {/* RIGHT */}
+//               <div>
+//                 <p className="font-semibold leading-tight text-black">
+//                   Parvati and Sons, an IT company headquartered in Uttarakhand, was
+//                   founded in 2018 with a mission to provide automation solutions for
+//                   startups, small businesses, and enterprises.
+//                 </p>
+
+//                 <p className="mt-2 font-semibold leading-tight text-brand">
+//                   Since then, we have successfully completed numerous projects
+//                   across various cities in India, staying true to our vision.
+//                 </p>
+
+//                 <div className="mt-10 flex items-center justify-between">
+//                   <span className="h-px flex-1 bg-gray-400"></span>
+
+//                   <Link
+//                     href="/about"
+//                     className="ml-6 inline-flex items-center gap-2 rounded-md bg-black px-6 py-3 text-sm text-white"
+//                   >
+//                     Know more about us →
+//                   </Link>
+//                 </div>
+//               </div>
+
+//             </div>
+
+//             {/* MOBILE CARD */}
+//             <div className="md:hidden rounded-2xl bg-white p-6 shadow-sm backdrop-filter: blur(10px);">
+
+//               <p className="text-2xl font-semibold">
+//                 Our <span className="text-brand font-bold">Story</span>
+//               </p>
+
+//               <h2 className="mt-3 text-2xl font-semibold leading-tight text-gray">
+//                 We’r providing quality service since 2018!
+//               </h2>
+
+//               <p className="mt-6 font-semibold leading-tight text-black">
+//                 Parvati and Sons, an IT company headquartered in Uttarakhand, was
+//                 founded in 2018 with a mission to provide automation solutions for
+//                 startups, small businesses, and enterprises.
+//               </p>
+
+//               <p className="mt-4 font-semibold leading-tight text-black">
+//                 Since then, we have successfully completed numerous projects across
+//                 various cities in India, staying true to our vision.
+//               </p>
+
+//               <Link
+//                 href="/about"
+//                 className="mt-8 inline-flex items-center gap-2 rounded-md bg-black px-6 py-3 text-sm text-white"
+//               >
+//                 Know more about us →
+//               </Link>
+
+//             </div>
+
+//           </div>
+//         </section>

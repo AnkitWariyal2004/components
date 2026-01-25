@@ -46,7 +46,7 @@ export default function Header() {
             />
 
             {/* DESKTOP NAV */}
-            <nav className="hidden lg:flex items-center gap-8 text-sm font-medium">
+            <nav className="hidden lg:flex items-center gap-8 text-md font-medium">
               <Link href="/" className="text-brand">Home</Link>
               <Link href="/our-work">Our work</Link>
               <Link href="/template">Template</Link>
@@ -121,7 +121,7 @@ export default function Header() {
             </div>
 
             {/* NAV LINKS */}
-            <nav className="flex flex-col px-4 py-3 text-sm">
+            <nav className="flex flex-col px-4 py-3 text-md">
               <Link href="/" className="py-2 text-brand font-medium border-b border-gray-300 border-dashed">
                 Home
               </Link>
@@ -146,7 +146,7 @@ export default function Header() {
             <div className="flex-1" />
 
             {/* FOOTER */}
-            <div className=" m-2 px-4 py-4 text-sm font-bold text-gray-700 space-y-4">
+            <div className=" m-2 px-4 py-4 text-md font-bold text-gray-700 space-y-4">
               {/* ADDRESS */}
               <div className="flex flex-row gap-3 items-center border-b border-t pt-2 border-gray-300 border-dashed pb-2">
                 <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
@@ -188,7 +188,7 @@ export default function Header() {
               </div>
 
               {/* SOCIAL ICONS */}
-              <div className="flex gap-4 pt-2 text-base">
+              <div className="flex gap-4 pt-2 text-md">
                 <a href="#" aria-label="X"><FaXTwitter /></a>
                 <a href="#" aria-label="Facebook"><FaFacebookF /></a>
                 <a href="#" aria-label="LinkedIn"><FaLinkedinIn /></a>
